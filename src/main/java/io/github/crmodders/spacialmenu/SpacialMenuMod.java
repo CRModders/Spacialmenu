@@ -1,11 +1,11 @@
-package com.example.examplemod;
+package io.github.crmodders.spacialmenu;
 
 import net.fabricmc.api.ModInitializer;
 
 import java.util.logging.Logger;
 
-public class ExampleMod implements ModInitializer {
-    public static final String MOD_ID = "examplemod";
+public class SpacialMenuMod implements ModInitializer {
+    public static final String MOD_ID = "spacialmenu";
     public static final Logger LOGGER = Logger.getLogger(MOD_ID);
 
     @Override

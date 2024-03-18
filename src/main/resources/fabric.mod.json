@@ -3,18 +3,18 @@
   "id": "${modid}",
   "version": "${version}",
   "name": "${mod_name}",
-  "description": "Fabric mod for Cosmic Reach!",
+  "description": "Taking menu menu modification to another level.",
   "authors": [
   ],
   "license": "CC0-1.0",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.examplemod.ExampleMod"
+      "io.github.crmodders.spacialmenu.SpacialMenuMod"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+    "spacialmenu.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
