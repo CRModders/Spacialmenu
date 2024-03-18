@@ -9,7 +9,5 @@ public class SpacialMenuMod implements ModInitializer {
     public static final Logger LOGGER = Logger.getLogger(MOD_ID);
 
     @Override
-    public void onInitialize() {
-        LOGGER.info("Hello non Cosmic world!");
-    }
+    public void onInitialize() { }
 }
